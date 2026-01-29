@@ -17,7 +17,7 @@ export default function ChallengeSection() {
           {/* Content */}
           <div className="self-stretch px-3 md:px-12">
             <p className="text-[rgba(73,66,61,0.85)] text-sm font-medium leading-7 font-sans">
-              A challenge I face when creating content on TikTok is that the platform is designed around extremely fast-paced, highly stimulating editing styles. Content that is slower or more reflective tends to feel out of place, which creates pressure to adopt a more "brain-rot" style of editing that prioritizes immediacy over depth.
+              A challenge I face when creating content on TikTok is that the platform is designed around extremely fast-paced, highly stimulating editing styles. Content that is slower or more reflective tends to feel out of place, which creates pressure to adopt a more "brain-rot" style of editing to keep users more hooked and falsesly engaged.
             </p>
           </div>
         </div>
