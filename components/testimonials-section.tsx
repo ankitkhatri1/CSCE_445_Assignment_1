@@ -26,7 +26,7 @@ export default function TestimonialsSection() {
       name: "Ankit Khatri",
       company: "Student, CSCE445",
       image:
-        "a1/public/7M5A5239-2.png",
+        "/7M5A5239-2.png",
     },
   ]
 
@@ -97,42 +97,6 @@ export default function TestimonialsSection() {
                 </div>
               </div>
             </div>
-          </div>
-
-          {/* Navigation Arrows */}
-          <div className="pr-6 justify-start items-start gap-[14px] flex">
-            <button
-              onClick={() => handleNavigationClick((activeTestimonial - 1 + testimonials.length) % testimonials.length)}
-              className="w-9 h-9 shadow-[0px_1px_2px_rgba(0,0,0,0.08)] overflow-hidden rounded-full border border-[rgba(0,0,0,0.15)] justify-center items-center gap-2 flex hover:bg-gray-50 transition-colors"
-            >
-              <div className="w-6 h-6 relative overflow-hidden">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M15 18L9 12L15 6"
-                    stroke="#46413E"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </div>
-            </button>
-            <button
-              onClick={() => handleNavigationClick((activeTestimonial + 1) % testimonials.length)}
-              className="w-9 h-9 shadow-[0px_1px_2px_rgba(0,0,0,0.08)] overflow-hidden rounded-full border border-[rgba(0,0,0,0.15)] justify-center items-center gap-2 flex hover:bg-gray-50 transition-colors"
-            >
-              <div className="w-6 h-6 relative overflow-hidden">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M9 18L15 12L9 6"
-                    stroke="#46413E"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </div>
-            </button>
           </div>
         </div>
       </div>
