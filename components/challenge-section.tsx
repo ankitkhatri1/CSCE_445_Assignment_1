@@ -12,6 +12,8 @@ export default function ChallengeSection() {
             </h2>
           </div>
 
+          {/* ur mom */}
+
           {/* Content */}
           <div className="self-stretch px-3 md:px-12">
             <p className="text-[rgba(73,66,61,0.85)] text-sm font-medium leading-7 font-sans">
